@@ -40,7 +40,12 @@ Exemple:
 '''
 
 def fibonacci(fibonacci_number):
-    # Write here your code
+    if numero == 0:
+        return 0
+    elif numero == 1:
+        return 1
+    else:
+        return fibonacci(numero-1) + fibonacci(numero-2)
     pass
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script 
